@@ -2584,6 +2584,9 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <class number="0" name="default" width="0.4064" drill="0.2032">
 <clearance class="0" value="0.2032"/>
 </class>
+<class number="1" name="power" width="0.8128" drill="0.2032">
+<clearance class="1" value="0.2032"/>
+</class>
 </classes>
 <parts>
 <part name="WIFI_STA" library="esp8266modules" deviceset="ESP01" device=""/>
@@ -2711,7 +2714,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="WIFI_STA" gate="G$1" pin="GND"/>
 <wire x1="-17.78" y1="81.28" x2="-22.86" y2="81.28" width="0.1524" layer="91"/>
@@ -2847,7 +2850,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <junction x="220.98" y="5.08"/>
 </segment>
 </net>
-<net name="3VCC" class="0">
+<net name="3VCC" class="1">
 <segment>
 <pinref part="WIFI_STA" gate="G$1" pin="VCC"/>
 <wire x1="15.24" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
@@ -2883,7 +2886,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <junction x="220.98" y="12.7"/>
 </segment>
 </net>
-<net name="5VCC" class="0">
+<net name="5VCC" class="1">
 <segment>
 <pinref part="PRG_HDR" gate="A" pin="2"/>
 <wire x1="63.5" y1="5.08" x2="73.66" y2="5.08" width="0.1524" layer="91"/>
