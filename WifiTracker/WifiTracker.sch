@@ -2793,7 +2793,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.2032" drill="0.2032">
+<class number="0" name="default" width="0.4064" drill="0.2032">
 <clearance class="0" value="0.2032"/>
 </class>
 </classes>
