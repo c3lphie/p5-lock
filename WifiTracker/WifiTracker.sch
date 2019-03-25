@@ -2587,6 +2587,9 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <class number="1" name="power" width="0.8128" drill="0.2032">
 <clearance class="1" value="0.2032"/>
 </class>
+<class number="2" name="text" width="0.2032" drill="0.2032">
+<clearance class="2" value="0.2032"/>
+</class>
 </classes>
 <parts>
 <part name="WIFI_STA" library="esp8266modules" deviceset="ESP01" device=""/>
