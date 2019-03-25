@@ -3071,6 +3071,10 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,1,114.3,10.16,5V_REG,GND_(NOPAD),GND,,,"/>
+<approved hash="104,1,157.48,10.16,5V_REG,GND_(TAB),GND,,,"/>
+<approved hash="104,1,177.8,10.16,3V_REG,GND_(NOPAD),GND,,,"/>
+<approved hash="104,1,220.98,10.16,3V_REG,GND_(TAB),GND,,,"/>
 <approved hash="113,1,59.6477,4.03606,PRG_HDR,,,,,"/>
 <approved hash="113,1,94.9766,12.9261,POWER,,,,,"/>
 </errors>
