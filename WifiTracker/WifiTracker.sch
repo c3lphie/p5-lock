@@ -1468,6 +1468,50 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <rectangle x1="2.159" y1="-5.461" x2="2.921" y2="-4.699" layer="21"/>
 <rectangle x1="2.159" y1="-4.699" x2="2.921" y2="-2.921" layer="51"/>
 </package>
+<package name="1X02" urn="urn:adsk.eagle:footprint:22309/1" library_version="3">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+</package>
+<package name="1X02/90" urn="urn:adsk.eagle:footprint:22310/1" library_version="3">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.175" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
+<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
+<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
+<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X03" urn="urn:adsk.eagle:package:22462/2" type="model" library_version="3">
@@ -1480,6 +1524,18 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="2X03/90"/>
+</packageinstances>
+</package3d>
+<package3d name="1X02" urn="urn:adsk.eagle:package:22435/2" type="model" library_version="3">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X02"/>
+</packageinstances>
+</package3d>
+<package3d name="1X02/90" urn="urn:adsk.eagle:package:22437/2" type="model" library_version="3">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X02/90"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1497,6 +1553,16 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pin name="4" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="5" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="6" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+</symbol>
+<symbol name="PINHD2" urn="urn:adsk.eagle:symbol:22308/1" library_version="3">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1533,6 +1599,38 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22464/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD-1X2" urn="urn:adsk.eagle:component:22516/3" prefix="JP" uservalue="yes" library_version="3">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X02">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22435/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="/90" package="1X02/90">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22437/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2258,6 +2356,191 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-IC-Power" urn="urn:adsk.eagle:library:526">
+<description>&lt;h3&gt;SparkFun Power Driver and Management ICs&lt;/h3&gt;
+In this library you'll find anything that has to do with power delivery, or making power supplies.
+&lt;p&gt;Contents:
+&lt;ul&gt;&lt;li&gt;LDOs&lt;/li&gt;
+&lt;li&gt;Boost/Buck controllers&lt;/li&gt;
+&lt;li&gt;Charge pump controllers&lt;/li&gt;
+&lt;li&gt;Power sequencers&lt;/li&gt;
+&lt;li&gt;Power switches&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="TO220-ADJ" urn="urn:adsk.eagle:footprint:39018/1" library_version="1">
+<wire x1="5.08" y1="-1.905" x2="-5.08" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="1.905" x2="-5.08" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="5.08" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="-5.08" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="2.54" x2="8.255" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="8.255" y1="2.54" x2="8.255" y2="-5.715" width="0.2032" layer="51"/>
+<wire x1="8.255" y1="-5.715" x2="9.525" y2="-5.715" width="0.2032" layer="51"/>
+<wire x1="9.525" y1="-5.715" x2="9.525" y2="3.81" width="0.2032" layer="51"/>
+<wire x1="9.525" y1="3.81" x2="-9.525" y2="3.81" width="0.2032" layer="51"/>
+<wire x1="-9.525" y1="3.81" x2="-9.525" y2="-5.715" width="0.2032" layer="51"/>
+<wire x1="-9.525" y1="-5.715" x2="-8.255" y2="-5.715" width="0.2032" layer="51"/>
+<wire x1="-8.255" y1="-5.715" x2="-8.255" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="-8.255" y1="2.54" x2="-5.08" y2="2.54" width="0.2032" layer="51"/>
+<pad name="ADJ" x="-2.54" y="0" drill="1" diameter="1.8796" shape="square"/>
+<pad name="OUT" x="0" y="0" drill="1" diameter="1.8796"/>
+<pad name="IN" x="2.54" y="0" drill="1" diameter="1.8796"/>
+</package>
+<package name="SOT223" urn="urn:adsk.eagle:footprint:39019/1" library_version="1">
+<description>&lt;b&gt;SOT-223&lt;/b&gt;</description>
+<wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="1.651" x2="3.2766" y2="1.651" width="0.2032" layer="21"/>
+<smd name="1" x="-2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="2" x="0" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="3" x="2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
+<text x="-0.8255" y="4.5085" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.0795" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+</package>
+<package name="V-REG_DPACK" urn="urn:adsk.eagle:footprint:39020/1" library_version="1">
+<description>&lt;b&gt;DPAK&lt;/b&gt;&lt;p&gt;
+PLASTIC PACKAGE CASE 369C-01&lt;br&gt;
+Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
+<wire x1="3.2766" y1="3.8354" x2="3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-2.159" x2="-3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-2.159" x2="-3.2766" y2="3.8354" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="3.835" x2="3.2774" y2="3.8346" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="3.937" x2="-2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="4.6482" x2="-2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="-2.1082" y1="5.1054" x2="2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="2.1082" y1="5.1054" x2="2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="4.6482" x2="2.5654" y2="3.937" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="3.937" x2="-2.5654" y2="3.937" width="0.2032" layer="51"/>
+<smd name="1" x="-2.28" y="-4.8" dx="1.6" dy="3" layer="1"/>
+<smd name="3" x="2.28" y="-4.8" dx="1.6" dy="3" layer="1"/>
+<smd name="4" x="0" y="2.38" dx="5.8" dy="6.2" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.7178" y1="-5.1562" x2="-1.8542" y2="-2.2606" layer="51"/>
+<rectangle x1="1.8542" y1="-5.1562" x2="2.7178" y2="-2.2606" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.0226" x2="0.4318" y2="-2.2606" layer="21"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-2.5654" y="3.937"/>
+<vertex x="-2.5654" y="4.6482"/>
+<vertex x="-2.1082" y="5.1054"/>
+<vertex x="2.1082" y="5.1054"/>
+<vertex x="2.5654" y="4.6482"/>
+<vertex x="2.5654" y="3.937"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="TO220-ADJ" urn="urn:adsk.eagle:package:39068/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="TO220-ADJ"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT223" urn="urn:adsk.eagle:package:39069/1" type="box" library_version="1">
+<description>SOT-223</description>
+<packageinstances>
+<packageinstance name="SOT223"/>
+</packageinstances>
+</package3d>
+<package3d name="V-REG_DPACK" urn="urn:adsk.eagle:package:39071/1" type="box" library_version="1">
+<description>DPAK
+PLASTIC PACKAGE CASE 369C-01
+Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
+<packageinstances>
+<packageinstance name="V-REG_DPACK"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="78ADJ-2" urn="urn:adsk.eagle:symbol:39017/1" library_version="1">
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.032" y="-4.318" size="1.524" layer="95">ADJ</text>
+<text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
+<text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
+<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
+<pin name="ADJ" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="V_REG_317" urn="urn:adsk.eagle:component:39103/1" prefix="U" library_version="1">
+<description>&lt;b&gt;Voltage Regulator&lt;/b&gt;
+Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google 'LM317 Calculator' for easy to use app to get the two resistor values needed. 240/720 for 5V output. 240/390 for 3.3V output. Spark Fun Electronics SKU : COM-00527</description>
+<gates>
+<gate name="G$1" symbol="78ADJ-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SINK" package="TO220-ADJ">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="ADJ"/>
+<connect gate="G$1" pin="IN" pad="IN"/>
+<connect gate="G$1" pin="OUT" pad="OUT"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39068/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="SOT223">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39069/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DPACK" package="V-REG_DPACK">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39071/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-09888" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2283,6 +2566,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1"/>
 <part name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
+<part name="5V_REG" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_317" device="DPACK" package3d_urn="urn:adsk.eagle:package:39071/1"/>
+<part name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_317" device="DPACK" package3d_urn="urn:adsk.eagle:package:39071/1"/>
+<part name="POWER" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -2348,6 +2634,18 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="C3" gate="G$1" x="-33.02" y="40.64" smashed="yes">
 <attribute name="NAME" x="-31.496" y="43.561" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-31.496" y="38.481" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="5V_REG" gate="G$1" x="109.22" y="12.7" smashed="yes">
+<attribute name="NAME" x="111.76" y="5.08" size="1.778" layer="95"/>
+<attribute name="VALUE" x="111.76" y="2.54" size="1.778" layer="96"/>
+</instance>
+<instance part="U1" gate="G$1" x="129.54" y="45.72" smashed="yes">
+<attribute name="NAME" x="132.08" y="38.1" size="1.778" layer="95"/>
+<attribute name="VALUE" x="132.08" y="35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="POWER" gate="G$1" x="147.32" y="-10.16" smashed="yes">
+<attribute name="NAME" x="140.97" y="-4.445" size="1.778" layer="95"/>
+<attribute name="VALUE" x="140.97" y="-15.24" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -2451,6 +2749,21 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="-33.02" y1="38.1" x2="-40.64" y2="38.1" width="0.1524" layer="91"/>
 <label x="-40.64" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="5V_REG" gate="G$1" pin="ADJ"/>
+<wire x1="109.22" y1="5.08" x2="109.22" y2="-2.54" width="0.1524" layer="91"/>
+<label x="109.22" y="-2.54" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="POWER" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="-10.16" x2="111.76" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-10.16" x2="111.76" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="5.08" x2="109.22" y2="5.08" width="0.1524" layer="91"/>
+<junction x="109.22" y="5.08"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="ADJ"/>
+<wire x1="129.54" y1="38.1" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
+<label x="129.54" y="30.48" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="3VCC" class="0">
 <segment>
@@ -2477,6 +2790,11 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <junction x="111.76" y="73.66"/>
 <junction x="111.76" y="71.12"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="OUT"/>
+<wire x1="137.16" y1="45.72" x2="144.78" y2="45.72" width="0.1524" layer="91"/>
+<label x="144.78" y="45.72" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="5VCC" class="0">
 <segment>
@@ -2497,6 +2815,18 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="-33.02" y1="45.72" x2="-40.64" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-33.02" y="45.72"/>
 <label x="-40.64" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="5V_REG" gate="G$1" pin="OUT"/>
+<wire x1="116.84" y1="12.7" x2="124.46" y2="12.7" width="0.1524" layer="91"/>
+<label x="124.46" y="12.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="116.84" y1="12.7" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
+<junction x="116.84" y="12.7"/>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<wire x1="116.84" y1="45.72" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="POWER" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="12.7" x2="116.84" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-7.62" x2="144.78" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STA_TXD" class="0">
@@ -2635,6 +2965,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="55.88" y1="0" x2="55.88" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-10.16" x2="50.8" y2="-10.16" width="0.1524" layer="91"/>
 <label x="50.8" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="VIN" class="0">
+<segment>
+<pinref part="5V_REG" gate="G$1" pin="IN"/>
+<wire x1="101.6" y1="12.7" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
+<label x="93.98" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
