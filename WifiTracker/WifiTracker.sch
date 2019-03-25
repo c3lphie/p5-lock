@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2817,7 +2817,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="10KOHM"/>
 <part name="R2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="10KOHM"/>
 <part name="R3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="10KOHM"/>
-<part name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1.0UF" device="-1206-50V-10%" package3d_urn="urn:adsk.eagle:package:37426/1" value="0.1uF"/>
 <part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1.0UF" device="-1206-50V-10%" package3d_urn="urn:adsk.eagle:package:37426/1" value="22pF"/>
 <part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1.0UF" device="-1206-50V-10%" package3d_urn="urn:adsk.eagle:package:37426/1" value="22pF"/>
 <part name="R4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="1MOHM"/>
@@ -2903,10 +2902,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <instance part="R3" gate="G$1" x="106.68" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="110.49" y="74.7014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="110.49" y="79.502" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="C3" gate="G$1" x="-33.02" y="40.64" smashed="yes">
-<attribute name="NAME" x="-31.496" y="43.561" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="-31.496" y="38.481" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C1" gate="G$1" x="-35.56" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="-38.481" y="32.004" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -3022,11 +3017,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <label x="35.56" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-33.02" y1="38.1" x2="-40.64" y2="38.1" width="0.1524" layer="91"/>
-<label x="-40.64" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="5V_REG" gate="A1" pin="GND"/>
 <pinref part="3V_REG" gate="A1" pin="GND"/>
 <wire x1="124.46" y1="5.08" x2="142.24" y2="5.08" width="0.1524" layer="91"/>
@@ -3106,13 +3096,10 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="-17.78" y1="48.26" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-17.78" y="45.72"/>
 <wire x1="-17.78" y1="45.72" x2="-22.86" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="45.72" x2="-33.02" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="45.72" x2="-40.64" y2="45.72" width="0.1524" layer="91"/>
 <label x="-40.64" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <junction x="-22.86" y="45.72"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="-33.02" y1="45.72" x2="-40.64" y2="45.72" width="0.1524" layer="91"/>
-<junction x="-33.02" y="45.72"/>
 </segment>
 <segment>
 <pinref part="3V_REG" gate="A1" pin="VI"/>
@@ -3165,14 +3152,14 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="60.96" y1="22.86" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="PRO_CH_PD" class="0">
 <segment>
 <pinref part="WIFI_PRO" gate="G$1" pin="CH_PD"/>
 <wire x1="93.98" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="PRO_RST" class="0">
 <segment>
 <pinref part="WIFI_PRO" gate="G$1" pin="RST"/>
 <wire x1="93.98" y1="73.66" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
@@ -3269,13 +3256,13 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <junction x="109.22" y="12.7"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="STA_CH_PD" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="WIFI_STA" gate="G$1" pin="CH_PD"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="STA_RST" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="WIFI_STA" gate="G$1" pin="RST"/>
@@ -3284,6 +3271,10 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,59.6477,4.03606,PRG_HDR,,,,,"/>
+<approved hash="113,1,94.9766,12.9261,POWER,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
