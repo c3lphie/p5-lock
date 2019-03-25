@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2831,9 +2831,9 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <attribute name="NAME" x="-12.7" y="83.82" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-12.7" y="68.58" size="1.778" layer="95"/>
 </instance>
-<instance part="WIFI_PRO" gate="G$1" x="78.74" y="71.12" smashed="yes">
-<attribute name="NAME" x="66.04" y="81.28" size="1.778" layer="95"/>
-<attribute name="VALUE" x="66.04" y="66.04" size="1.778" layer="95"/>
+<instance part="WIFI_PRO" gate="G$1" x="78.74" y="73.66" smashed="yes">
+<attribute name="NAME" x="66.04" y="83.82" size="1.778" layer="95"/>
+<attribute name="VALUE" x="66.04" y="68.58" size="1.778" layer="95"/>
 </instance>
 <instance part="ATMEGA" gate="G$1" x="5.08" y="27.94" smashed="yes">
 <attribute name="NAME" x="-12.7" y="56.642" size="1.778" layer="95"/>
@@ -2899,9 +2899,9 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <attribute name="NAME" x="24.13" y="74.7014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="24.13" y="79.502" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R3" gate="G$1" x="106.68" y="76.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="110.49" y="74.7014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="110.49" y="79.502" size="1.778" layer="96" rot="R180"/>
+<instance part="R3" gate="G$1" x="106.68" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="110.49" y="77.2414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="110.49" y="82.042" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C1" gate="G$1" x="-35.56" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="-38.481" y="32.004" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -2915,9 +2915,9 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <attribute name="NAME" x="-26.8986" y="21.59" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-22.098" y="21.59" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R5" gate="G$1" x="106.68" y="73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="110.49" y="72.1614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="110.49" y="76.962" size="1.778" layer="96" rot="R180"/>
+<instance part="R5" gate="G$1" x="106.68" y="76.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="110.49" y="74.7014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="110.49" y="79.502" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -2937,14 +2937,14 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 </segment>
 <segment>
 <pinref part="WIFI_PRO" gate="G$1" pin="GND"/>
-<wire x1="60.96" y1="78.74" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
-<label x="55.88" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="60.96" y1="81.28" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
+<label x="55.88" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="WIFI_PRO" gate="G$1" pin="GPIO0"/>
-<wire x1="60.96" y1="73.66" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
-<junction x="60.96" y="78.74"/>
-<pinref part="WIFI_PRO" gate="G$1" pin="GPIO2"/>
 <wire x1="60.96" y1="76.2" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
-<junction x="60.96" y="76.2"/>
+<junction x="60.96" y="81.28"/>
+<pinref part="WIFI_PRO" gate="G$1" pin="GPIO2"/>
+<wire x1="60.96" y1="78.74" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
+<junction x="60.96" y="78.74"/>
 </segment>
 <segment>
 <pinref part="ATMEGA" gate="G$1" pin="GND@2"/>
@@ -3051,8 +3051,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <segment>
 <pinref part="WIFI_STA" gate="G$1" pin="VCC"/>
 <wire x1="15.24" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
-<label x="33.02" y="73.66" size="1.778" layer="95" xref="yes"/>
-<wire x1="25.4" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
+<label x="25.4" y="73.66" size="1.778" layer="95" xref="yes"/>
 <junction x="25.4" y="73.66"/>
 <wire x1="25.4" y1="78.74" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -3062,15 +3061,15 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 </segment>
 <segment>
 <pinref part="WIFI_PRO" gate="G$1" pin="VCC"/>
-<wire x1="93.98" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
-<label x="116.84" y="71.12" size="1.778" layer="95" xref="yes"/>
-<wire x1="111.76" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="76.2" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
-<junction x="111.76" y="71.12"/>
+<wire x1="93.98" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
+<label x="116.84" y="73.66" size="1.778" layer="95" xref="yes"/>
+<wire x1="111.76" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="78.74" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
+<junction x="111.76" y="73.66"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="73.66" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
-<junction x="111.76" y="73.66"/>
+<wire x1="111.76" y1="76.2" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
+<junction x="111.76" y="76.2"/>
 </segment>
 <segment>
 <pinref part="3V_REG" gate="A1" pin="VO"/>
@@ -3139,9 +3138,9 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <segment>
 <pinref part="ATMEGA" gate="G$1" pin="PD2(INT0)"/>
 <wire x1="30.48" y1="25.4" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="25.4" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="25.4" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="WIFI_PRO" gate="G$1" pin="TXD"/>
-<wire x1="99.06" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="81.28" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PRO_RXD" class="0">
@@ -3149,20 +3148,20 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <pinref part="ATMEGA" gate="G$1" pin="PD3(INT1)"/>
 <wire x1="30.48" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="WIFI_PRO" gate="G$1" pin="RXD"/>
-<wire x1="60.96" y1="22.86" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="22.86" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PRO_CH_PD" class="0">
 <segment>
 <pinref part="WIFI_PRO" gate="G$1" pin="CH_PD"/>
-<wire x1="93.98" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PRO_RST" class="0">
 <segment>
 <pinref part="WIFI_PRO" gate="G$1" pin="RST"/>
-<wire x1="93.98" y1="73.66" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
