@@ -2674,6 +2674,93 @@ www.irf.com&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="TS1117CP33-R0">
+<description>&lt;&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="TO229P990X238-4N">
+<description>&lt;b&gt;DPAK-3&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-4.15" y="2.29" dx="2.85" dy="1" layer="1"/>
+<smd name="2" x="-4.15" y="0" dx="2.85" dy="1" layer="1"/>
+<smd name="3" x="-4.15" y="-2.29" dx="2.85" dy="1" layer="1"/>
+<smd name="4" x="2.6" y="0" dx="5.95" dy="5.55" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.095" y1="-3.365" x2="4.125" y2="-3.365" width="0.001" layer="51"/>
+<wire x1="4.125" y1="-3.365" x2="4.125" y2="3.365" width="0.001" layer="51"/>
+<wire x1="4.125" y1="3.365" x2="-2.095" y2="3.365" width="0.001" layer="51"/>
+<wire x1="-2.095" y1="3.365" x2="-2.095" y2="-3.365" width="0.001" layer="51"/>
+<wire x1="-5.85" y1="-3.65" x2="5.85" y2="-3.65" width="0.05" layer="51"/>
+<wire x1="5.85" y1="-3.65" x2="5.85" y2="3.65" width="0.05" layer="51"/>
+<wire x1="5.85" y1="3.65" x2="-5.85" y2="3.65" width="0.05" layer="51"/>
+<wire x1="-5.85" y1="3.65" x2="-5.85" y2="-3.65" width="0.05" layer="51"/>
+<circle x="0" y="0" radius="0.35" width="0.05" layer="21"/>
+<wire x1="0" y1="-0.5" x2="0" y2="0.5" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.05" layer="51"/>
+<wire x1="-2.032" y1="-3.27" x2="4.062" y2="-3.27" width="0.1" layer="51"/>
+<wire x1="4.062" y1="-3.27" x2="4.062" y2="3.27" width="0.1" layer="51"/>
+<wire x1="4.062" y1="3.27" x2="-2.032" y2="3.27" width="0.1" layer="51"/>
+<wire x1="-2.032" y1="3.27" x2="-2.032" y2="-3.27" width="0.1" layer="51"/>
+<wire x1="4.062" y1="-2.508" x2="4.356" y2="-2.508" width="0.1" layer="51"/>
+<wire x1="4.356" y1="-2.508" x2="4.952" y2="-1.846" width="0.1" layer="51"/>
+<wire x1="4.952" y1="-1.846" x2="4.952" y2="1.847" width="0.1" layer="51"/>
+<wire x1="4.952" y1="1.847" x2="4.356" y2="2.508" width="0.1" layer="51"/>
+<wire x1="4.356" y1="2.508" x2="4.062" y2="2.508" width="0.1" layer="51"/>
+<wire x1="-0.75" y1="-3.25" x2="-2.35" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="-2.35" y1="-3.25" x2="-2.35" y2="3.25" width="0.2" layer="21"/>
+<wire x1="-2.35" y1="3.25" x2="-0.75" y2="3.25" width="0.2" layer="21"/>
+<circle x="-5.3" y="3.3" radius="0.125" width="0.25" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TS1117CP33-R0">
+<wire x1="5.08" y1="2.54" x2="38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-5.08" x2="38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="39.37" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="39.37" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="IN" x="0" y="0" length="middle" direction="in"/>
+<pin name="GND" x="0" y="-2.54" length="middle" direction="pwr"/>
+<pin name="OUT" x="43.18" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="OUT_(TAB)" x="43.18" y="-2.54" length="middle" direction="out" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TS1117CP33-R0" prefix="IC">
+<description>&lt;b&gt;&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TS1117CP33-R0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO229P990X238-4N">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="OUT_(TAB)" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ALLIED_NUMBER" value="70100442" constant="no"/>
+<attribute name="ALLIED_PRICE-STOCK" value="http://www.alliedelec.com/on-semiconductor-lp2950cdt-5-0g/70100442/" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="HEIGHT" value="2.38mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LP2950CDT-5.0G" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-LP2950CDT-5.0G" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=863-LP2950CDT-5.0G" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="0463593P" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/0463593P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2713,13 +2800,13 @@ www.irf.com&lt;p&gt;
 <part name="R4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="1MΩ"/>
 <part name="R5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="10kΩ"/>
 <part name="5V_REG" library="LP2950CDT-5.0G" deviceset="LP2950CDT-5.0G" device=""/>
-<part name="3V_REG" library="LP2950CDT-5.0G" deviceset="LP2950CDT-5.0G" device=""/>
 <part name="R7" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="10kΩ"/>
 <part name="Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
 <part name="R8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="10kΩ"/>
 <part name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="10kΩ"/>
 <part name="Q2" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
 <part name="R10" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="10kΩ"/>
+<part name="IC1" library="TS1117CP33-R0" deviceset="TS1117CP33-R0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2816,10 +2903,6 @@ www.irf.com&lt;p&gt;
 <attribute name="NAME" x="153.67" y="20.32" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="153.67" y="17.78" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="3V_REG" gate="G$1" x="177.8" y="12.7" smashed="yes">
-<attribute name="NAME" x="217.17" y="20.32" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="217.17" y="17.78" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="R7" gate="G$1" x="66.04" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.85" y="54.3814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="69.85" y="59.182" size="1.778" layer="96" rot="R180"/>
@@ -2842,6 +2925,7 @@ www.irf.com&lt;p&gt;
 <attribute name="NAME" x="19.2786" y="69.85" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="14.478" y="69.85" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="IC1" gate="G$1" x="177.8" y="12.7"/>
 </instances>
 <busses>
 </busses>
@@ -2942,8 +3026,7 @@ www.irf.com&lt;p&gt;
 <wire x1="157.48" y1="5.08" x2="165.1" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="5.08" x2="172.72" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="5.08" x2="177.8" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="5.08" x2="220.98" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="5.08" x2="226.06" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="5.08" x2="226.06" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="5.08" x2="124.46" y2="0" width="0.1524" layer="91"/>
 <junction x="124.46" y="5.08"/>
 <label x="124.46" y="0" size="1.778" layer="95" rot="R270" xref="yes"/>
@@ -2972,12 +3055,9 @@ www.irf.com&lt;p&gt;
 <pinref part="5V_REG" gate="G$1" pin="GND_(TAB)"/>
 <wire x1="157.48" y1="10.16" x2="157.48" y2="5.08" width="0.1524" layer="91"/>
 <junction x="157.48" y="5.08"/>
-<pinref part="3V_REG" gate="G$1" pin="GND_(NOPAD)"/>
 <wire x1="177.8" y1="10.16" x2="177.8" y2="5.08" width="0.1524" layer="91"/>
 <junction x="177.8" y="5.08"/>
-<pinref part="3V_REG" gate="G$1" pin="GND_(TAB)"/>
-<wire x1="220.98" y1="10.16" x2="220.98" y2="5.08" width="0.1524" layer="91"/>
-<junction x="220.98" y="5.08"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="3VCC" class="1">
@@ -3012,8 +3092,10 @@ www.irf.com&lt;p&gt;
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="12.7" x2="220.98" y2="20.32" width="0.1524" layer="91"/>
 <label x="220.98" y="20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="3V_REG" gate="G$1" pin="OUT"/>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
 <junction x="220.98" y="12.7"/>
+<pinref part="IC1" gate="G$1" pin="OUT_(TAB)"/>
+<wire x1="220.98" y1="10.16" x2="220.98" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="55.88" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
@@ -3063,9 +3145,9 @@ www.irf.com&lt;p&gt;
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="5V_REG" gate="G$1" pin="OUT"/>
 <junction x="157.48" y="12.7"/>
-<pinref part="3V_REG" gate="G$1" pin="IN"/>
 <wire x1="177.8" y1="12.7" x2="172.72" y2="12.7" width="0.1524" layer="91"/>
 <junction x="172.72" y="12.7"/>
+<pinref part="IC1" gate="G$1" pin="IN"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -3202,7 +3284,7 @@ www.irf.com&lt;p&gt;
 <label x="50.8" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="VIN" class="1">
 <segment>
 <pinref part="POWER" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="12.7" x2="109.22" y2="12.7" width="0.1524" layer="91"/>
