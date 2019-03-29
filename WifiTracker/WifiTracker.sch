@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2575,105 +2575,6 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor-small-signal" urn="urn:adsk.eagle:library:401">
-<description>&lt;b&gt;Small Signal Transistors&lt;/b&gt;&lt;p&gt;
-Packages from :&lt;br&gt;
-www.infineon.com; &lt;br&gt;
-www.semiconductors.com;&lt;br&gt;
-www.irf.com&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:29641/1" library_version="1">
-<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT23" urn="urn:adsk.eagle:package:29752/1" type="box" library_version="1">
-<description>SOT-23</description>
-<packageinstances>
-<packageinstance name="SOT23"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="N-MOS" urn="urn:adsk.eagle:symbol:29642/1" library_version="1">
-<wire x1="-1.27" y1="0" x2="-0.254" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="0.381" x2="-0.254" y2="-0.381" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-0.381" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0" x2="-0.889" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.032" x2="0" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="3.048" x2="1.27" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="3.048" x2="1.27" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.762" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.508" x2="1.27" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.794" x2="0" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0" x2="0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0" x2="1.27" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.762" x2="1.778" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0.762" x2="0.762" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="2.032" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.032" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-2.032" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0" x2="-0.381" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-0.254" x2="-0.381" y2="0.254" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="0.254" x2="-0.889" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0.508" x2="1.016" y2="0.127" width="0.254" layer="94"/>
-<wire x1="1.016" y1="0.127" x2="1.524" y2="0.127" width="0.254" layer="94"/>
-<wire x1="1.524" y1="0.127" x2="1.27" y2="0.508" width="0.254" layer="94"/>
-<circle x="0" y="-2.794" radius="0.3592" width="0" layer="94"/>
-<circle x="0" y="-2.032" radius="0.3592" width="0" layer="94"/>
-<circle x="0" y="3.048" radius="0.3592" width="0" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="1.27" x2="-1.524" y2="2.54" layer="94"/>
-<rectangle x1="-2.032" y1="-2.54" x2="-1.524" y2="-1.27" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BSS123" urn="urn:adsk.eagle:component:29810/1" prefix="Q" library_version="1">
-<description>&lt;b&gt;N-CHANNEL MOS FET&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="N-MOS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29752/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TS1117CP33-R0">
 <description>&lt;&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -2800,19 +2701,15 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <part name="R4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="1MΩ"/>
 <part name="R5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="10kΩ"/>
 <part name="5V_REG" library="LP2950CDT-5.0G" deviceset="LP2950CDT-5.0G" device=""/>
-<part name="R7" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="10kΩ"/>
-<part name="Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
-<part name="R8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="10kΩ"/>
-<part name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="10kΩ"/>
-<part name="Q2" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
-<part name="R10" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="10kΩ"/>
 <part name="IC1" library="TS1117CP33-R0" deviceset="TS1117CP33-R0" device=""/>
+<part name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="1kΩ"/>
+<part name="R10" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="2.2kΩ"/>
+<part name="R7" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="1kΩ"/>
+<part name="R8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1210" package3d_urn="urn:adsk.eagle:package:13299/1" value="2.2kΩ"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="46.482" y="46.736" size="1.778" layer="95">DMG3420U</text>
-<text x="11.684" y="64.262" size="1.778" layer="95" rot="R90">DMG3420U</text>
 </plain>
 <instances>
 <instance part="WIFI_STA" gate="G$1" x="0" y="88.9" smashed="yes">
@@ -2903,29 +2800,26 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <attribute name="NAME" x="153.67" y="20.32" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="153.67" y="17.78" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R7" gate="G$1" x="66.04" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="69.85" y="54.3814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="69.85" y="59.182" size="1.778" layer="96" rot="R180"/>
+<instance part="IC1" gate="G$1" x="177.8" y="12.7" smashed="yes">
+<attribute name="NAME" x="217.17" y="20.32" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="217.17" y="17.78" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="Q1" gate="G$1" x="60.96" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="58.42" y="45.72" size="1.778" layer="95" rot="R180"/>
+<instance part="R9" gate="G$1" x="20.32" y="76.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="24.13" y="74.7014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="24.13" y="79.502" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R8" gate="G$1" x="66.04" y="38.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="69.85" y="36.6014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="69.85" y="41.402" size="1.778" layer="96" rot="R180"/>
+<instance part="R10" gate="G$1" x="-2.54" y="76.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="1.27" y="74.7014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="1.27" y="79.502" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R9" gate="G$1" x="0" y="66.04" smashed="yes" rot="R270">
-<attribute name="NAME" x="1.4986" y="69.85" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-3.302" y="69.85" size="1.778" layer="96" rot="R270"/>
+<instance part="R7" gate="G$1" x="58.42" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="56.9214" y="36.83" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="61.722" y="36.83" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q2" gate="G$1" x="10.16" y="60.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.16" y="58.42" size="1.778" layer="95" rot="R270"/>
+<instance part="R8" gate="G$1" x="58.42" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="56.9214" y="59.69" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="61.722" y="59.69" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R10" gate="G$1" x="17.78" y="66.04" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.2786" y="69.85" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="14.478" y="69.85" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="IC1" gate="G$1" x="177.8" y="12.7"/>
 </instances>
 <busses>
 </busses>
@@ -2950,6 +2844,8 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <wire x1="60.96" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="76.2" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
 <junction x="58.42" y="81.28"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="68.58" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ATMEGA" gate="G$1" pin="GND@2"/>
@@ -3059,6 +2955,11 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <junction x="177.8" y="5.08"/>
 <pinref part="IC1" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="-7.62" y1="76.2" x2="-20.32" y2="76.2" width="0.1524" layer="91"/>
+<label x="-20.32" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="3VCC" class="1">
 <segment>
@@ -3097,26 +2998,6 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <pinref part="IC1" gate="G$1" pin="OUT_(TAB)"/>
 <wire x1="220.98" y1="10.16" x2="220.98" y2="12.7" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="73.66" y1="55.88" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="66.04" y1="48.26" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
-<junction x="73.66" y="55.88"/>
-<label x="83.82" y="55.88" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="0" y1="73.66" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="7.62" y1="66.04" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="0" y1="73.66" x2="0" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="0" y1="73.66" x2="0" y2="76.2" width="0.1524" layer="91"/>
-<junction x="0" y="73.66"/>
-<label x="0" y="76.2" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="5VCC" class="1">
 <segment>
@@ -3149,16 +3030,6 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <junction x="172.72" y="12.7"/>
 <pinref part="IC1" gate="G$1" pin="IN"/>
 </segment>
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="38.1" x2="83.82" y2="38.1" width="0.1524" layer="91"/>
-<label x="83.82" y="38.1" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="71.12" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
-<label x="17.78" y="76.2" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="STA_TXD" class="0">
 <segment>
@@ -3169,28 +3040,13 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <wire x1="35.56" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="STA_RXD" class="0">
+<net name="AT_TXD" class="0">
 <segment>
 <pinref part="ATMEGA" gate="G$1" pin="PD1(TXD)"/>
 <wire x1="30.48" y1="27.94" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="27.94" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PRO_TXD" class="0">
-<segment>
-<pinref part="ATMEGA" gate="G$1" pin="PD2(INT0)"/>
-<wire x1="30.48" y1="25.4" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PRO_RXD" class="0">
-<segment>
-<pinref part="ATMEGA" gate="G$1" pin="PD3(INT1)"/>
-<wire x1="30.48" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="60.96" y1="40.64" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="38.1" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
-<junction x="60.96" y="38.1"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="27.94" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PRO_CH_PD" class="0">
@@ -3309,47 +3165,49 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <pinref part="WIFI_STA" gate="G$1" pin="RST"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="WIFI_PRO" gate="G$1" pin="TXD"/>
-<wire x1="99.06" y1="81.28" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="81.28" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="60.96" y1="50.8" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="WIFI_PRO" gate="G$1" pin="RXD"/>
-<wire x1="60.96" y1="55.88" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
-<junction x="60.96" y="55.88"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="WIFI_STA" gate="G$1" pin="RXD"/>
-<wire x1="-17.78" y1="83.82" x2="-17.78" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="83.82" x2="-17.78" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PRO_RXD1" class="0">
-<segment>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="15.24" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
-<junction x="17.78" y="60.96"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
+<net name="STA_RXD" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="5.08" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="0" y1="60.96" x2="-17.78" y2="60.96" width="0.1524" layer="91"/>
-<junction x="0" y="60.96"/>
+<wire x1="15.24" y1="76.2" x2="7.62" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="76.2" x2="2.54" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="76.2" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="83.82" x2="-20.32" y2="83.82" width="0.1524" layer="91"/>
+<junction x="7.62" y="76.2"/>
+<wire x1="-20.32" y1="83.82" x2="-20.32" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="WIFI_STA" gate="G$1" pin="RXD"/>
+<wire x1="-20.32" y1="88.9" x2="-17.78" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AT_STXD" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="35.56" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="ATMEGA" gate="G$1" pin="PD3(INT1)"/>
+<wire x1="58.42" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRO_RXD" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="45.72" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="53.34" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="53.34" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
+<junction x="58.42" y="53.34"/>
+<wire x1="66.04" y1="53.34" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="WIFI_PRO" gate="G$1" pin="RXD"/>
+<wire x1="60.96" y1="68.58" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PRO_TXD" class="0">
+<segment>
+<pinref part="ATMEGA" gate="G$1" pin="PD2(INT0)"/>
+<wire x1="30.48" y1="25.4" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="25.4" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="WIFI_PRO" gate="G$1" pin="TXD"/>
+<wire x1="99.06" y1="81.28" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -3358,8 +3216,8 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <errors>
 <approved hash="104,1,114.3,10.16,5V_REG,GND_(NOPAD),GND,,,"/>
 <approved hash="104,1,157.48,10.16,5V_REG,GND_(TAB),GND,,,"/>
-<approved hash="104,1,177.8,10.16,3V_REG,GND_(NOPAD),GND,,,"/>
-<approved hash="104,1,220.98,10.16,3V_REG,GND_(TAB),GND,,,"/>
+<approved hash="206,1,220.98,12.7,3VCC,,,,,"/>
+<approved hash="206,1,220.98,10.16,3VCC,,,,,"/>
 <approved hash="113,1,59.6477,4.03606,PRG_HDR,,,,,"/>
 <approved hash="113,1,94.9766,12.9261,POWER,,,,,"/>
 </errors>
