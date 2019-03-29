@@ -2970,8 +2970,6 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LP2950-D.PDF"&gt; Datas
 <label x="304.8" y="-17.78" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="3V_REG" gate="G$1" pin="OUT"/>
 <junction x="304.8" y="-25.4"/>
-<pinref part="3V_REG" gate="G$1" pin="OUT_(TAB)"/>
-<wire x1="304.8" y1="-27.94" x2="304.8" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
