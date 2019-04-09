@@ -5688,8 +5688,6 @@ CONN_03
 <pinref part="3V_REG" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="ATMEGA" gate="G$1" pin="PB2(SS/OC1B)"/>
-<pinref part="ATMEGA" gate="G$1" pin="PB1(OC1A)"/>
 <pinref part="ATMEGA" gate="G$1" pin="PD4(XCK/T0)"/>
 <wire x1="30.48" y1="20.32" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
 <junction x="30.48" y="20.32"/>
@@ -5705,17 +5703,21 @@ CONN_03
 <wire x1="30.48" y1="12.7" x2="30.48" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="ATMEGA" gate="G$1" pin="PB0(ICP)"/>
 <junction x="30.48" y="7.62"/>
-<wire x1="30.48" y1="7.62" x2="30.48" y2="5.08" width="0.1524" layer="91"/>
-<junction x="30.48" y="5.08"/>
-<wire x1="30.48" y1="5.08" x2="30.48" y2="2.54" width="0.1524" layer="91"/>
 <label x="35.56" y="20.32" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="OPTO" gate="G$1" pin="CATHODE"/>
 <wire x1="60.96" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="20.32" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="OPTO1" gate="G$1" pin="CATHODE"/>
 <wire x1="58.42" y1="7.62" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="7.62" x2="30.48" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="7.62" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
 <junction x="58.42" y="7.62"/>
+<pinref part="ATMEGA" gate="G$1" pin="PB2(SS/OC1B)"/>
+<wire x1="33.02" y1="7.62" x2="30.48" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="2.54" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="2.54" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
+<junction x="33.02" y="7.62"/>
+<pinref part="ATMEGA" gate="G$1" pin="PD3(INT1)"/>
+<wire x1="30.48" y1="22.86" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3VCC" class="1">
@@ -5990,15 +5992,6 @@ CONN_03
 <wire x1="185.42" y1="-15.24" x2="180.34" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="ATMEGA" gate="G$1" pin="PD3(INT1)"/>
-<wire x1="30.48" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="22.86" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="10.16" x2="45.72" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -6039,6 +6032,14 @@ CONN_03
 <wire x1="195.58" y1="27.94" x2="195.58" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="22.86" x2="180.34" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="22.86" x2="180.34" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="ATMEGA" gate="G$1" pin="PB1(OC1A)"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="5.08" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="5.08" x2="45.72" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
